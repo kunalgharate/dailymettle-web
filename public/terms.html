@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms &amp; Conditions — Dailymettle | 75 Hard Challenge Tracker</title>
+    <meta name="description" content="Terms & Conditions for Dailymettle, the offline-first 75 Hard Challenge tracker app. Acceptable use, accounts, disclaimers, and your responsibilities.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#FFA726">
+    <meta property="og:title" content="Dailymettle Terms & Conditions">
+    <meta property="og:description" content="The terms that govern your use of the Dailymettle 75 Hard Challenge tracker app.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dailymettle.web.app/terms.html">
+    <meta property="og:site_name" content="Dailymettle">
+    <link rel="canonical" href="https://dailymettle.web.app/terms.html">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23FFA726'/><text x='50' y='62' text-anchor='middle' font-family='Arial,sans-serif' font-weight='bold' font-size='42' fill='white'>75</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #FFA726; --primary-dark: #F57C00; --secondary: #FF7043;
+            --bg-white: #FFFFFF; --bg-grey-50: #FAFAFA; --bg-warm: #FFF8F0; --bg-warm-deep: #FFF3E0;
+            --text-primary: #212121; --text-secondary: #424242; --text-muted: #757575; --text-dim: #9E9E9E;
+            --border-subtle: #EEEEEE;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.08); --shadow-lg: 0 8px 30px rgba(0,0,0,0.1);
+            --radius-sm: 8px; --radius-md: 12px; --radius-lg: 16px; --radius-full: 100px;
+            --font-heading: 'Poppins', -apple-system, sans-serif; --font-body: 'Inter', -apple-system, sans-serif;
+        }
+        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+        body { background: var(--bg-white); color: var(--text-primary); font-family: var(--font-body); font-size: 15px; line-height: 1.7; overflow-x: hidden; }
+        a { color: var(--primary); text-decoration: none; transition: color 0.2s ease; }
+        a:hover { color: var(--primary-dark); }
+        ::selection { background: var(--primary); color: white; }
+
+        .nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 1000; padding: 0 40px; height: 68px;
+            display: flex; align-items: center; justify-content: space-between;
+            background: rgba(255,255,255,0.9); backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%); border-bottom: 1px solid var(--border-subtle);
+        }
+        .nav-logo { display: flex; align-items: center; gap: 10px; font-family: var(--font-heading); font-size: 22px; font-weight: 700; color: var(--text-primary); letter-spacing: -0.02em; }
+        .nav-logo-icon { width: 34px; height: 34px; background: linear-gradient(135deg, var(--primary), var(--secondary)); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; color: white; font-size: 16px; font-weight: 800; }
+        .nav-back { font-size: 14px; font-weight: 500; color: var(--text-muted); }
+        .nav-back:hover { color: var(--primary-dark); }
+
+        .doc-hero { padding: 130px 24px 40px; background: linear-gradient(180deg, var(--bg-warm) 0%, var(--bg-white) 100%); }
+        .doc-hero .container { max-width: 780px; margin: 0 auto; }
+        .doc-hero .badge { display: inline-block; padding: 6px 16px; background: var(--bg-warm-deep); color: var(--primary-dark); border-radius: var(--radius-full); font-size: 13px; font-weight: 600; margin-bottom: 18px; }
+        .doc-hero h1 { font-family: var(--font-heading); font-size: clamp(30px, 5vw, 42px); font-weight: 700; letter-spacing: -0.03em; line-height: 1.15; margin-bottom: 10px; }
+        .doc-hero .updated { color: var(--text-muted); font-size: 14px; }
+
+        .container { max-width: 780px; margin: 0 auto; padding: 0 24px; }
+        .doc-body { padding: 30px 0 20px; }
+        .doc-body section { margin-bottom: 34px; }
+        .doc-body h2 { font-family: var(--font-heading); font-size: 21px; font-weight: 600; letter-spacing: -0.01em; margin-bottom: 12px; color: var(--text-primary); }
+        .doc-body p { color: var(--text-secondary); margin-bottom: 12px; }
+        .doc-body ul { padding-left: 22px; margin: 8px 0 12px; color: var(--text-secondary); }
+        .doc-body li { margin-bottom: 8px; }
+        .doc-body strong { color: var(--text-primary); font-weight: 600; }
+
+        .callout { background: var(--bg-warm-deep); border-radius: var(--radius-lg); padding: 20px 24px; display: flex; gap: 14px; align-items: flex-start; margin: 8px 0 30px; }
+        .callout .ico { font-size: 22px; line-height: 1.4; }
+        .callout p { color: var(--text-secondary); margin: 0; font-size: 14.5px; }
+
+        .toc { background: var(--bg-grey-50); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 22px 26px; margin-bottom: 34px; }
+        .toc h3 { font-family: var(--font-heading); font-size: 15px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-bottom: 12px; }
+        .toc ol { padding-left: 20px; columns: 2; column-gap: 30px; }
+        .toc li { margin-bottom: 6px; font-size: 14px; }
+        @media (max-width: 560px) { .toc ol { columns: 1; } }
+
+        .footer { border-top: 1px solid var(--border-subtle); padding: 40px 24px; margin-top: 30px; background: var(--bg-grey-50); }
+        .footer-inner { max-width: 780px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; }
+        .footer-brand { display: flex; align-items: center; gap: 10px; font-family: var(--font-heading); font-weight: 700; font-size: 18px; }
+        .footer-brand-icon { width: 30px; height: 30px; background: linear-gradient(135deg, var(--primary), var(--secondary)); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; color: white; font-size: 13px; font-weight: 800; }
+        .footer-links { display: flex; gap: 24px; list-style: none; flex-wrap: wrap; }
+        .footer-links a { font-size: 14px; color: var(--text-muted); }
+        .footer-links a:hover { color: var(--primary-dark); }
+        .footer-copy { font-size: 13px; color: var(--text-dim); width: 100%; text-align: center; margin-top: 8px; }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-logo"><span class="nav-logo-icon">75</span> Dailymettle</a>
+        <a href="/" class="nav-back">← Back to Home</a>
+    </nav>
+
+    <header class="doc-hero">
+        <div class="container">
+            <span class="badge">TERMS &amp; CONDITIONS</span>
+            <h1>Terms &amp; Conditions</h1>
+            <p class="updated">Last updated: September 27, 2026</p>
+        </div>
+    </header>
+
+    <main class="container doc-body">
+        <div class="callout">
+            <span class="ico">📄</span>
+            <p>By using Dailymettle you agree to these Terms. The app is an offline-first habit and challenge tracker; cloud backup and accountability-partner features are optional and only active when you sign in.</p>
+        </div>
+
+        <div class="toc">
+            <h3>Contents</h3>
+            <ol>
+                <li><a href="#acceptance">Acceptance of terms</a></li>
+                <li><a href="#service">The service</a></li>
+                <li><a href="#account">Your account</a></li>
+                <li><a href="#acceptable-use">Acceptable use</a></li>
+                <li><a href="#content">User content</a></li>
+                <li><a href="#partners">Accountability partners</a></li>
+                <li><a href="#health">Health &amp; safety disclaimer</a></li>
+                <li><a href="#privacy">Privacy</a></li>
+                <li><a href="#availability">Availability &amp; changes</a></li>
+                <li><a href="#warranties">Disclaimer of warranties</a></li>
+                <li><a href="#liability">Limitation of liability</a></li>
+                <li><a href="#termination">Termination</a></li>
+                <li><a href="#changes">Changes to terms</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ol>
+        </div>
+
+        <section id="acceptance">
+            <h2>1. Acceptance of Terms</h2>
+            <p>By downloading, installing, or using Dailymettle ("the app"), you agree to these Terms &amp; Conditions. If you do not agree, please do not use the app.</p>
+        </section>
+
+        <section id="service">
+            <h2>2. The Service</h2>
+            <p>Dailymettle helps you create daily habits and challenges, track completion, receive reminders, and optionally back up your data and share progress with accountability partners. The app is offline-first: cloud backup and partner features are optional and only active when you sign in.</p>
+        </section>
+
+        <section id="account">
+            <h2>3. Your Account</h2>
+            <p>Some features require signing in with Google or email. You are responsible for keeping your account credentials secure and for all activity that occurs under your account. Please provide accurate information when signing in.</p>
+        </section>
+
+        <section id="acceptable-use">
+            <h2>4. Acceptable Use</h2>
+            <p>You agree to use the app only for lawful, personal habit and challenge tracking. You must not:</p>
+            <ul>
+                <li>Upload unlawful, harmful, or infringing content.</li>
+                <li>Harass, abuse, or share others' private information through partner features.</li>
+                <li>Attempt to disrupt, reverse-engineer, or gain unauthorized access to the app or its services.</li>
+            </ul>
+        </section>
+
+        <section id="content">
+            <h2>5. User Content</h2>
+            <p>You retain ownership of the task names, notes, and photos you create ("your content"). You are solely responsible for your content. When you use accountability-partner features, you grant the app permission to share the specific content you choose with the partners you select, so the feature can function.</p>
+        </section>
+
+        <section id="partners">
+            <h2>6. Accountability Partners</h2>
+            <p>Partner features let you and another user review each other's tasks. Only share information you are comfortable disclosing to your partner. We are not responsible for how partners use information you choose to share with them.</p>
+        </section>
+
+        <section id="health">
+            <h2>7. Health &amp; Safety Disclaimer</h2>
+            <p>Dailymettle is a tracking tool, not medical, fitness, or professional advice. You are solely responsible for your own health, safety, and wellbeing while pursuing any challenge. Consult a qualified professional before starting any new fitness, diet, or wellness routine.</p>
+        </section>
+
+        <section id="privacy">
+            <h2>8. Privacy</h2>
+            <p>Your use of the app is also governed by our <a href="/privacy.html">Privacy Policy</a>, which explains how your data is processed. Please review it to understand our data practices.</p>
+        </section>
+
+        <section id="availability">
+            <h2>9. Availability &amp; Changes</h2>
+            <p>We may update, change, or discontinue features at any time. Cloud and partner features depend on third-party services (such as Google Firebase) and internet connectivity, and may be temporarily unavailable.</p>
+        </section>
+
+        <section id="warranties">
+            <h2>10. Disclaimer of Warranties</h2>
+            <p>The app is provided "as is" and "as available" without warranties of any kind, whether express or implied, including fitness for a particular purpose and uninterrupted or error-free operation.</p>
+        </section>
+
+        <section id="liability">
+            <h2>11. Limitation of Liability</h2>
+            <p>To the maximum extent permitted by law, we are not liable for any indirect, incidental, or consequential damages, or for any loss of data, arising from your use of the app.</p>
+        </section>
+
+        <section id="termination">
+            <h2>12. Termination</h2>
+            <p>You may stop using the app at any time by uninstalling it. We may suspend or terminate access if you violate these terms.</p>
+        </section>
+
+        <section id="changes">
+            <h2>13. Changes to These Terms</h2>
+            <p>We may update these Terms from time to time. Material changes will be posted here and in the app with an updated date. Continued use after changes means you accept the updated Terms.</p>
+        </section>
+
+        <section id="contact">
+            <h2>14. Contact</h2>
+            <p>For questions about these Terms, contact us at <a href="mailto:dailymettle@gmail.com">dailymettle@gmail.com</a>.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand"><div class="footer-brand-icon">75</div> Dailymettle</div>
+            <ul class="footer-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/support.html">Support</a></li>
+                <li><a href="/terms.html">Terms</a></li>
+                <li><a href="/privacy.html">Privacy</a></li>
+            </ul>
+            <div class="footer-copy">© 2025–2026 Dailymettle. Built with discipline.</div>
+        </div>
+    </footer>
+</body>
+</html>
